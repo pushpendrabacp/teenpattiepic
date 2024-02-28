@@ -1,0 +1,239 @@
+ul {
+  font-size: 15px;
+  padding-top: 6%;
+  padding-right: 5%;
+  padding-bottom: 6%;
+  padding-left: 5%;
+}
+* {
+  padding: 0;
+  margin: 0;
+  user-select: none;
+  list-style: none;
+}
+.note {
+  color: #c9c3b5;
+  padding: 0 0%;
+  font-size: 0.24rem;
+}
+.center {
+  width: 750px;
+  min-height: 1000px;
+  margin: 0 auto;
+  position: relative;
+  background: url("../img/teen-patti-epic-banner.webp") no-repeat top center/100% auto, #130e0a;
+  padding-bottom: 7.1rem;
+  overflow-x: hidden;
+}
+.bodylook {
+
+  background-color: white;
+  font-family: Arial, sans-serif;
+  border: 5px solid red;
+  padding-top: 2%;
+  padding-right: 2%;
+  padding-bottom: 2%;
+  padding-left: 2%;
+
+}
+.top img {
+  width: 100%;
+  display: block;
+}
+.center .downBtn {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding-top: 0px;
+  margin-top: 122%;
+  margin-bottom: 82%;
+}
+.center .downBtn img {
+  width: 70%;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  animation: moves 1.8s infinite;
+}
+.swiper-container {
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.swiper-container .swiper-slide {
+  width: 100%;
+}
+.swiper-container .swiper-slide img {
+  width: 100%;
+}
+
+.top1 img {
+  width: 100%;
+  margin-top: 3%;
+}
+.top2 img {
+  width: 100%;
+}
+.top3 img {
+  width: 100%;
+}
+.word {
+  width: 94%;
+  margin: 0 auto;
+}
+.word p {
+  font-size: 0.7rem;
+  color: #ddcda6;
+}
+
+.footbtn {
+  width: 750px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0;
+  box-sizing: border-box;
+  z-index: 99;
+}
+.footbtn a {
+  width: 100%;
+}
+.footbtn a img {
+  width: 100%;
+  display: block;
+}
+
+.kf {
+  position: fixed;
+  right: 0%;
+  top: 0;
+  bottom: 0;
+  margin: 5rem auto;
+  width: 3rem;
+  height: 3rem;
+  z-index: 999;
+}
+.kf img {
+  width: 100%;
+}
+.tg {
+    position: fixed;
+    right: -5%;
+    top: 0;
+    bottom: 0;
+    margin: 23rem auto;
+    width: 6.5rem;
+    height: 3rem;
+    z-index: 999;
+  }
+  .tg img {
+    width: 75%;
+  }
+.blank {
+  padding: 0 2px;
+}
+@keyframes moves2 {
+  0% {
+    transform: translateY(1px);
+  }
+  50% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(1px);
+  }
+}
+@keyframes moves {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.96);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@media (max-width: 1440px){
+  .center,
+  .footbtn {
+    width: 100%;
+  }
+  .kf {
+    position: fixed;
+    right: 0%;
+    top: 0;
+    bottom: 0;
+    margin: 5rem auto;
+    width: 3rem;
+    height: 3rem;
+    z-index: 999;
+  }
+  .kf img {
+    width: 100%;
+  }
+  .tg {
+    position: fixed;
+    right: -3%;
+    top: 0;
+    bottom: 0;
+    margin: 9rem auto;
+    width: 6.5rem;
+    height: 3rem;
+    z-index: 999;
+  }
+  .tg img {
+    width: 75%;
+    }
+.hed {border-style: dashed solid;height: auto;
+  width: 100%;
+  margin: auto;
+  padding: 5px;
+  display: inline-block;
+  background-color: palegreen;
+  border-width: 5px;
+  box-sizing: border-box}
+
+  .hed1 {border-style: double solid;height: auto;
+  width: 100%;
+  margin: auto;
+  padding: 5px;
+  display: inline-block;
+  background-color: #FFEBEBEB;
+  border-width: 5px;
+  box-sizing: border-box}
+  #customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;}
+
+  .ttopIcon {
+    margin-left: 10px; width: 1rem; height: 1rem; display: block;
+  }
+
+  .ttopTitle {
+    margin-left: 10px; font-size: 4rem; font-weight: 600; color: coral; display: block;
+  }
